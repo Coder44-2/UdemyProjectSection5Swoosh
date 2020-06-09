@@ -30,6 +30,8 @@
 
     <TextView
         android:id="@+id/goAll_In"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -55,6 +57,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
         android:text="@string/on_going_all_out"
         android:textColor="@color/colorAccent"
         android:textSize="60sp"

@@ -17,4 +17,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/welcomescreenbg" />
 
+    <ImageView
+        android:id="@+id/swooshLogo"
+        android:layout_width="290dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/swoosh_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/swooshlogo" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

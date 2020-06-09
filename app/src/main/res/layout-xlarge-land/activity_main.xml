@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -37,5 +38,65 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.50073206" />
+
+    <TextView
+        android:id="@+id/goAll_In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/go_all_in"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/headland_one"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swooshLogo" />
+
+    <TextView
+        android:id="@+id/onGoingAllOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/on_going_all_out"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/headland_one"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goAll_In" />
+
+    <TextView
+        android:id="@+id/FindATeamInYourCityTxtFld"
+        android:layout_width="571dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_horizontal"
+        android:singleLine="false"
+        android:text="@string/find_a_team_in_you_city_and_dominate_the_league"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="48sp"
+        app:fontFamily="@font/headland_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/swooshLogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

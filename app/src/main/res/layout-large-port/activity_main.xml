@@ -107,6 +107,7 @@
         android:background="@drawable/default_btn_design"
         android:text="@string/next"
         android:textColor="@color/colorAccent"
+        android:textSize="23sp"
         android:textStyle="bold"
         app:fontFamily="@font/headland_one"
         app:layout_constraintBottom_toBottomOf="parent"

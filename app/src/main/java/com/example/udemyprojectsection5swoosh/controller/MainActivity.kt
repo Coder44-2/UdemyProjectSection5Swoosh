@@ -10,7 +10,7 @@ class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        nxtBtn.setOnClickListener {
+        getStartedBtn.setOnClickListener {
             val league = Intent(this, LeagueActivity::class.java)
             startActivity(league)
         }

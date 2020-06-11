@@ -99,5 +99,22 @@
             android:textOff="@string/co_ed"
             android:textOn="@string/co_ed" />
     </LinearLayout>
+    <Button
+        android:id="@+id/NxtBtn"
+        android:layout_width="351dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/default_btn_design"
+        android:text = "@string/next"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:fontFamily="@font/headland_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

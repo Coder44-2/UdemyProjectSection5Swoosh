@@ -71,7 +71,7 @@
             android:textColor="@color/colorAccent"
             android:textOff="@string/men"
             android:textOn="@string/men"
-            android:textSize="23sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <ToggleButton
@@ -85,7 +85,7 @@
             android:textColor="@color/colorAccent"
             android:textOff="@string/women"
             android:textOn="@string/women"
-            android:textSize="23sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <ToggleButton
@@ -98,7 +98,7 @@
             android:textColor="@color/colorAccent"
             android:textOff="@string/co_ed"
             android:textOn="@string/co_ed"
-            android:textSize="23sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
     </LinearLayout>
 

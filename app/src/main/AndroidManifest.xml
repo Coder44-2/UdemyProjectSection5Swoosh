@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LockedOrientationActivity"
     package="com.example.udemyprojectsection5swoosh">
 
     <application
@@ -10,8 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".controller.BaseActivity"></activity>
-        <activity android:name=".controller.LeagueActivity" />
-        <activity android:name=".controller.MainActivity">
+        <activity android:name=".controller.LeagueActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".controller.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

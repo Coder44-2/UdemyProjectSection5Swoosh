@@ -7,4 +7,7 @@
     <string name="find_a_team_in_you_city_and_dominate_the_league">Find a team in your city and dominate the league!</string>
     <string name="next">Next</string>
     <string name="desired_league">Desired League:</string>
+    <string name="men">MEN</string>
+    <string name="women">WOMEN</string>
+    <string name="co_ed">CO-ED</string>
 </resources>

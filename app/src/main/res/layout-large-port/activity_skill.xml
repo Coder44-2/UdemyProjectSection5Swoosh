@@ -47,4 +47,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/swooshLogo" />
 
+    <LinearLayout
+        android:layout_width="518dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="68dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IAmATxtFld">
+
+        <ToggleButton
+            android:id="@+id/beginnerToggleButton"
+            android:layout_width="215dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/toggle_brain"
+            android:fontFamily="@font/headland_one"
+            android:text="@string/beginner"
+            android:textColor="@color/colorAccent"
+            android:textOff="@string/beginner"
+            android:textOn="@string/beginner"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/ballerToggleButton"
+            android:layout_width="215dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/toggle_brain"
+            android:fontFamily="@font/headland_one"
+            android:text="@string/baller"
+            android:textColor="@color/colorAccent"
+            android:textOff="@string/baller"
+            android:textOn="@string/baller"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

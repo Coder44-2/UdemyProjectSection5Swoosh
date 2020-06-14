@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".controller.SkillActivity"></activity>
+        <activity android:name=".controller.FinalActivity"></activity>
+        <activity android:name=".controller.SkillActivity" />
         <activity android:name=".controller.BaseActivity" />
         <activity android:name=".controller.LeagueActivity" />
         <activity android:name=".controller.MainActivity">
